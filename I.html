@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Athfix</title>
+<meta name="theme-color" content='#FF6329'>
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+     <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+      <link rel="stylesheet" media="screen and (min-width: 700px)" href="screen.css">
+      <link href="" rel="stylesheet">
+    <link href='style.css' rel='stylesheet'>
+    </head>
+    <body>
+    <script src='I.js'></script>
+    <p id="header" align="center">
+      <t>ATHFIX</t>
+     <heade>
+    <div class="span">
+    <span onclick="bar()"></span>
+    </div>  
+    </heade>
+   
+   </p>
+    <p id="info" align="center">Info</p>
+    
+ 
+    <header>
+    <img id="logo"
+    src="podcast.png"/>
+    </header>
+  
+    
+        <div id="menubar" class="menubar">
+     <button onclick="menu()" class="closebtn">×</button>       
+     <nav>
+      <li><a href="#">Home</a></li>
+   <li><a href="#">Discover more</a></li>
+      <li><a href="#">Feedback</a></li>
+      <li><a href="#">About Us</a></li>
+   <li><p id="devco" onClick="devco()">Developer Contact</a></p>
+      <p id="email">xyz@gmail.com
+    <button id="button" onClick="mo()">^</button>
+    </p>
+      
+     </nav>
+     </div>
+  
+ <article>
+           <h2>Informative</h2>
+  <h>This website is created for the purpose      of <br/> brief information of aspects which  Athfix<br/>includes in its INFO.Our main . purpose to<br/> share  information regarding
+              <ul>
+    <li> Innovative Entreprenures</li>
+    <li>Countries(Visited By Vloggers)</li>
+    <li>Innovation(which changed world)</li>
+     <w>and many more..!</w>
+         </ul>
+<la>
+     All aspects covering from space to.Sea   <br>covered through books.
+     </la>
+     </h>
+ </article>
+ 
+ 
+ <section>
+<p class="inno" align="center">Innovative Entreprenure<br/>
+<a id="all" href="https://en.m.wikipedia.org/wiki/Steve_Jobs">Click it</a></p>
+<button class="prev" onClick="prev()"><</button>
+<img id="slider" src="Steve.png" width="100%"/>
+<button class="next" onClick="next()">></button>
+
+<p class="world" align="center">The World
+ <br/> <a id="wall" href="#">Click it</a>
+</p>
+<button class="move" onClick="move()"><</button>
+<img id="hello" src="Mars.jpg"/>
+<button class="tomove" onClick="tomove()">></button>
+
+
+<p class="unive" align="center">Universe<br/>
+<a id="rse"
+href="https://en.m.wikipedia.org/wik/Galaxy">
+ Click it</a></p>
+   <img id="univ" src="Galaxy.jpg" width="100%"/>
+<button id="go" onClick="go();"><</button>
+<button id="back" onClick="back();">></button>
+</section>
+
+<footer>
+<p id="footer">
+  
+<p class="compn">Company<br/></p>
+<p class="you">your choice</p>
+<br/>
+<p class="commu">Community</p>
+<br/>
+
+<p class="social">
+ Follow us on
+<a href="#"><img class="face" src="Facebook.jpg"/></a>
+ <a href="#"><img class="twit"  src=" Twitter.jpg"/></a>
+  <a href="#"><img class="insta"  src="Insta.jpg"/></a>
+  <a href="#"><img class="you" src="Youtube.jpg"/></a>
+</p>  
+<a id="privacy" href="#">
+Privacy</a><br/>
+<a id="privacy" href="#">Copyright©</a>
+</footer>
+<style>
+  body{
+  background-color:rgba(400,200,4,0.6);
+  z-index:1;
+  
+}
+#header{
+   font-size:250%;
+    font-family:Courier New;
+    width:100%;
+    padding:1% 7% 3% 1%;
+    box-shadow:1px 1px 7px grey;
+    transform:translate(-3%,-70%);
+    top:0%;
+    background-color:white;
+    overflow-x:hidden;
+    overflow-y:hidden; 
+    position:fixed;
+    z-index: 1;
+    color:#FF6327;
+    text-shadow:4px 1px 2px #FAC300;
+    
+}
+#info{
+
+   font-family:'Raleway',sans-serif;
+    font-size:190%;
+    width:70px;
+    top:6%;
+    position:fixed;
+    z-index:1;
+    height:40px;
+    background-color:white;
+    border-radius:20px;
+    box-shadow:1px 1px 6px grey;
+    transform:translate(360%,-10%);
+}
+#logo{
+    width:85%;
+    height:85%;
+    float:center;
+    border-radius:70%;
+    transform:translate(9%,9%);
+    box-shadow:1px 1px 2px grey;
+}
+h2{
+    font-weight:lighter;
+    padding-top:4%;
+    text-shadow:1px 1px 7px grey;
+}
+h{
+    font-family:'Raleway', sans-serif;
+   font-size:15px;
+   transform:translateY(7px);
+   font-weight:lighter;
+   color:white;
+   
+}
+article{
+    width:90%;
+    padding-bottom:5%;
+    padding-left:5%;
+    border-radius:40px ;
+    color:white; 
+    background:url("Galaxy.jpg");
+    background-size:100% 100%;
+    border-radius:20px;
+    box-shadow:1px 1px 7px grey;
+    transform:translate(3%,10%);
+   font-family:'Raleway', sans-serif;
+}
+.menubar{
+    
+    width: 100%;
+    height: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: all 2s;
+    color: white;
+    background-color:white;
+    border:1px solid yellow;
+}
+
+
+heade{
+    
+    width:100%;
+    height: 40px;
+    position: absolute;
+    transform:translate(-7px,4px);
+    
+    
+}
+.span{
+    
+    
+    width: 40px;
+    height: 40px;
+    top: 0px;
+    left: 0px; 
+    background-color:none;
+    
+}
+nav{
+    margin-top: 40px;
+    height: 100%;
+    color:black;
+  background-color:rgba(20,400,500,0.6);
+}
+
+
+ nav li {
+    list-style-type: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    font-family:'Raleway', sans-serif;
+    font-size: 19px;
+    color:black;
+    width: auto;
+    height: 30px;
+    padding-top: 12px;
+    text-align:center;
+    transform:translate(-25px);
+    width:112%;
+    
+}
+
+nav li:nth-child(1){
+    
+   background-color:rgba(20,400,50,0.7);
+    width:112%;
+}
+
+nav li a{
+    text-decoration: blue;
+    color:black;
+}
+ nav li:hover{
+     background-color:blue;
+     width:112%;
+     
+ }
+
+
+
+.closebtn{
+    border:none;
+    font-weight:lighter;
+    float: right;
+    color:blue;
+    transform:translateY(-10px);
+    font-size:40px;
+
+}
+span{
+
+   
+   display:grid;
+    width: 75px;
+    height:55px;
+    border-radius: 5px;
+    background:url('1591703318856.png');
+    background-size:75px 55px;
+    top:0%;
+    z-index:1;
+    position:fixed;
+}
+.inno{
+    width:105%;
+    height:55px;
+    box-shadow:1px 1px 7px grey;
+    transform:translate(-3%,100%);
+    background-color:white;
+    font-family:'Raleway', sans-serif;
+    font-size:160%;
+    color:black;
+    text-shadow:5px 4px 3px grey;
+}
+.world{
+    
+    width:105%;
+    height:55px;
+    box-shadow:1px 1px 7px grey;
+    transform:translate(-3%,20%);
+    background-color:white;
+     font-family:'Raleway', sans-serif;
+    font-size:160%;
+    color:black;
+    text-shadow:5px 4px 3px grey;
+}
+.unive{
+    width:105%;
+    height:55px;
+    box-shadow:1px 1px 7px grey;
+    transform:translate(-3%,-60%);
+    background-color:white;
+   font-family:'Raleway', sans-serif;
+    font-size:27px;
+    color:black;
+    text-shadow:5px 4px 3px grey;
+    
+}
+#all{
+    text-decoration:none;
+    width:70px;
+    height:40px;
+    font-size:80%;
+    border-radius:20px;
+   background-color:rgba(10,40,500,0.4);
+    color:white;
+}
+#wall{
+    text-decoration:none;
+    width:70px;
+    height:40px;
+    font-size:80%;
+    border-radius:20px;
+   background-color:rgba(10,400,50,0.4);
+    color:red;  
+}
+#rse{
+    text-decoration:none;
+    width:70px;
+    height:40px;
+    font-size:80%;
+    border-radius:20px;
+   background-color:rgba(200,40,50,0.4);
+    color:yellow;
+}
+#slider{
+    width:220px;
+    height:240px;
+    transform:translate(0px,40px);
+    border-radius:40px;
+  
+}
+#hello{
+     width:220px;
+     height:240px;
+     transform:translate(0px,10px);
+     border-radius:140px;
+}
+#univ
+{    width:210px;
+     height:210px;
+     transform:translate(65px,-50px);
+     border-radius:80px;
+}
+.prev{
+    width:55px;
+    height:90px;
+    float:center;
+    border-radius:30px;
+     font-family:'Raleway', sans-serif;
+    font-size:50px;
+    border:none;
+    color:white;
+    background:rgba(700,40,80,0.6);
+    transform:translateY(-80px);
+}
+.next{
+    width:55px;
+    height:90px;
+    float:center;
+    border-radius:30px;
+    font-family:'Raleway', sans-serif;
+    font-size:50px;
+    border:none;
+    color:white;
+    background:rgba(700,40,80,0.6);
+    transform:translateY(-80px);        
+}
+.move{
+    width:55px;
+    height:90px;
+    float:center;
+    border-radius:30px;
+    font-family:'Raleway', sans-serif;
+    font-size:50px;
+    border:none;
+    color:white;
+    background:rgba(70,200,80,0.6);
+    transform:translateY(-100px);
+}
+.tomove{
+     width:55px;
+    height:90px;
+    float:center;
+    border-radius:30px;
+    font-family:'Raleway', sans-serif;
+    font-size:50px;
+    border:none;
+    color:white;
+    background:rgba(70,200,80,0.6);
+    transform:translate(0px,-100px);  
+}
+#button{
+  width:30px;
+  height:30px;
+  border-radius:30px;
+  font-size:25px;
+  color:blue;
+  border:none;
+  background-color: white;
+  
+}
+#go{
+    width:55px;
+    height:90px;
+    float:center;
+    border-radius:30px;
+    font-family:'Raleway', sans-serif;
+    font-size:50px;
+    border:none;
+    color:white;
+    background:rgba(20,40,300,0.6);
+    transform:translate(-210px,-120px);  
+}
+#back{
+    width:55px;
+    height:90px;
+    float:center;
+    border-radius:30px;
+    font-family:'Raleway', sans-serif;
+    font-size:50px;
+    border:none;
+    color:white;
+    background:rgba(20,40,300,0.6);
+    transform:translate(10px,-120px);  
+}
+section{
+    height:100%;
+    border-radius:0px 0px 20px 20px;
+}
+.face
+{
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    transform:translate(-54%,120%);
+} 
+.twit{
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    transform:translate(-30%,120%);
+    
+    
+}
+.insta{
+     width:50px;
+    height:50px;
+    border-radius:25px;
+    transform:translate(-14%,120%);
+    
+}
+.you{
+ width:50px;
+    height:50px;
+    border-radius:25px;
+    transform:translate(10%,120%);
+}
+.social{
+    transform:translate(0px,-80px);
+}
+.compn{
+     font-family:'Raleway', sans-serif;
+}
+footer{
+    color:white;
+    width:103%;
+    right:0px;
+    height:100%;
+    transform:translate(-8px,19px);
+    height:auto;
+    background-color:black;
+     font-family:'Raleway', sans-serif;
+    font-size:20px;
+    padding-left:6px;
+    box-shadow:1px 5px 7px grey;
+    box-sizing:40px;
+    overflow-x: hidden;
+    text-decoration: none;
+}
+
+#privacy{
+  text-decoration:none;
+  color:skyblue;
+  
+}
+#email{
+  width:100%;
+  height:0%;
+  transform:translateY(-25px);
+  position:absolute;
+  overflow-x:hidden;
+  transition:2s;
+  background-color:rgba(200,200,60,0.9);
+  font-size:17px;
+}
+#devco{
+  width:100%;
+  height:7%;
+  position:relative;
+  transform:translate(0px,-25px);
+}
+@media screen and (min-width:370px)
+{
+  body{
+    right:0px;
+    left:0px;
+  }
+  #header{
+    font-size:45px;
+    font-family:Courier New;
+    width:90%;
+    height:40px;
+    left:0px;
+    right:0px;
+    box-shadow:1px 1px 7px grey;
+    transform:translate(-2%, -80%);
+    background-color:white;
+    overflow-y:hidden;
+    color:rgba(600, 30, 40, 0.6);
+    text-shadow:1px 1px 7px grey;
+  }
+  #info
+   { height:40px;
+    background-color:white;
+    border-radius:20px;
+    transform:translate(180%,40%);
+   }
+  #logo{
+    width:300px;
+    height:280px;
+    border-radius:145px;
+    transform:translate(70%,1%);
+  }
+  span {
+    display: grid;
+    width: 75px;
+    height: 55px;
+    border-radius: 5px;
+    background: url('1591703318856.png');
+    background-size: 75px 55px;
+    transform: translate(9px,0px);
+  }
+  h2{
+    font-size:60px;
+    transform:translateY(-42px);
+  }
+  h{
+    font-size:20px;
+    transform:translateX(-42px);
+  }
+  article{
+    width:80%;
+    height:220px;
+    border-radius:25px;
+    overflow-x:hidden;
+    background:url('Galaxy.jpg');
+    transform:translate(10%,2%);
+  }
+  .inno{
+    width:50%;
+    border-radius:3px;
+    transform:translate(-10px,70px);
+  }
+  .world{
+    width:50%;
+    border-radius:3px;
+    transform:translate(340px,-305px);
+  }
+  #hello{
+    transform:translate(347px,-200px);
+  }
+  .prev{
+    transform:translateY(-20px);
+  }
+  .next{
+    transform:translateY(-20px);
+  }
+  .move{
+    width:55px;
+    height:90px;
+    float:center;
+    border-radius:30px;
+    font-family:'Raleway', sans-serif;
+    font-size:50px;
+    border:none;
+    color:white; 
+    background:rgba(70,200,80,0.6);
+    transform:translate(355px,-395px);
+  }
+  .tomove{
+      width:55px;
+    height:90px;
+    float:center;
+    border-radius:30px;
+    font-family:'Raleway', sans-serif;
+    font-size:50px;
+    border:none;
+    color:white;
+    background:rgba(70,200,80,0.6);
+    transform:translate(360px,-395px);
+  }
+  .unive{
+    transform:translate(-9px,-275px);
+    width:57%;
+    border-radius:0px 20px 20px 0px;
+  }
+  #slider{
+    transform:translate(-3px,70px);
+  }
+  #hello{
+    transform:translate(360px,-300px);
+  }
+  #univ{
+    transform:translate(85%,-280px);
+    width:230px;
+    height:250px;
+    border-radius:120px;
+  }
+  #go{
+    
+     transform:translate(-200%,-400px);
+  }
+  #back{
+      transform:translate(260%,-400px);
+  }
+  section{
+    transform:translateY(-120px);
+  }
+  footer{
+    width:105%;
+    font-size:25px;
+    border-radius:0px 20px 0px 0px;
+  }
+}
+
+@media only screen and(max-width:768px) {
+  {
+    #header{
+      display: none;
+    }
+  }
+</style>
+<script>
+  var  logos=[
+ "podcast.png ",
+  "video.png",
+"note.png"
+];
+var n=0;
+var time=setInterval(change,1000);
+function change()
+{
+   var hit=document.getElementById('logo');
+   if(n==3)
+   {
+       n=0;
+       logo.src=logos[n];
+   }
+  else
+{
+  logo.src=logos[n];
+   n++;
+}
+    
+}
+function bar()  { document.getElementById ("menubar").style.width="80%";
+     document.getElementById("menubar").style.height="100%"; }      
+            
+    function menu()  { document.getElementById("menubar").style.width= "0px";  
+    document.getElementById("menubar").style.height="0%"; 
+    
+  }  
+    
+ var images=[
+"Steve.png",
+"Bill.png",
+"Elon.png"
+];
+var linker=[
+"https://en.m.wikipedia.org/wiki/Steve_Jobs",
+"https://en.m.wikipedia.org/wiki/Bill_Gates",
+"https://en.m.wikipedia.org/wiki/Elon_Musk"
+];
+var num = 0;
+function next() {
+    var slider = document.getElementById('slider');
+    var links=document.getElementById('all');
+    num++;
+    if(num >= images.length) {
+        num = 0;
+    }
+    slider.src = images[num];
+    all.href=linker[num];
+}
+function prev() {
+    var slider = document.getElementById('slider');
+    var links=document.getElementById('all');
+    num--;
+    if(num < 0) {
+        num = images.length-1;
+    }
+    slider.src = images[num];
+954
+    
+}
+var pictures=[
+"Earth.jpg",
+"Mars.jpg",
+"Jupi.jpg"
+];
+var l=0;
+function move()
+{
+ var wliber=document.getElementById(hello);
+    l--;
+    if(l<0)
+    {
+        l=pictures.length-1;
+    }
+    hello.src=pictures[l];
+}
+function tomove()
+{
+    var wliber=document.getElementById(hello);
+    l++;
+    if(l>=pictures.length)
+    {
+        l=0;
+    }
+    hello.src=pictures[l];
+}
+var port=[
+"Galaxy.jpg",
+"Milky.jpg",
+"Sun.jpg"
+];
+var linkse=
+["https://en.m.wikipedia.org/wiki/Galaxy",
+"https://en.m.wikipedia.org/wiki/Milky_Way",
+"https://en.m.wikipedia.org/wiki/Sun"
+];
+var lum=0;
+function go()
+{
+   var vitos=document.getElementById(univ);
+   var itos=document.getElementById(rse);
+   lum++;
+   if(lum>=port.length)
+   {
+       lum=0;
+   } 
+   univ.src=port[lum];     
+   rse.href=linkse[lum];        
+}
+function back()
+{
+    var vitos=document.getElementById(univ);
+    var itos=document.getElementById(rse);
+    lum--;
+    if(lum<0)
+    {
+        lum=port.length-1;
+    }
+    univ.src=port[lum];  
+    rse.href=linkse[lum];  
+    
+}
+function devco()
+{
+ document.getElementById('email').style.height='100%';
+}
+function mo()
+{
+  document.getElementById('email').style.height="0%";
+}
+</script>
+</body>
+
+</html>
